@@ -30,7 +30,7 @@ class Vision:
 
 		# Load TensorFlow Lite Models and allocate tensors.
 		r = rospkg.RosPack()
-		self.package_path = r.get_path('burgerpilot_remote')
+		self.package_path = r.get_path('{RELPACE_WITH_YOUR_PROJECT_NAME}')
 		self.interpreter = tf.lite.Interpreter(model_path=self.package_path + "/src/models/detect.tflite")
 		self.interpreter.allocate_tensors()
 
