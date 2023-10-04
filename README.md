@@ -34,7 +34,7 @@ This script runs on the Raspberry Pi 4 and serves as the bridge between the came
 
 1. The Raspberry Pi Camera Publisher runs on the Raspberry Pi 4, capturing video frames from the camera.
 
-2. The desktop component's Robot Controls script runs on a separate computer (not on the Raspberry Pi). It subscribes to the '/video_frames' topic, receiving the camera's video feed.
+2. The Robot Controls script runs remotely on a computer. It subscribes to the '/video_frames' topic, receiving the camera's video feed.
 
 3. The Object Detection module within Robot Controls uses TensorFlow Lite and a pre-trained MobileNetV1 model to detect objects in the video frames. It specifically identifies stoplights and stop signs.
 
