@@ -1,4 +1,4 @@
-# Autonomous Robot Project with TurtleBot3 (in Python)
+# Autonomous Robot Project (in Python) with TurtleBot3
 
 ## Overview
 
